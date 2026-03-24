@@ -3,7 +3,7 @@ spring:
     name: inventory-service
 
   datasource:
-    url: ${SPRING_DATASOURCE_URL:jdbc:postgresql://localhost:5432/inventorydb}
+    url: ${SPRING_DATASOURCE_URL:jdbc:postgresql://localhost:5434/inventorydb}
     username: postgres
     password: postgres
     driver-class-name: org.postgresql.Driver
